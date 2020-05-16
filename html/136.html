@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>ICACII 2019</title>
+<link href="../images/ictiee.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript1.3" type="text/javascript" src="./js/jse_form.js"></script>
+<script type="text/javascript" src="js/top/jquery.min.js"></script>
+<script type="text/javascript" src="js/top/scrolltopcontrol.js"></script>
+</head>
+<body>
+	<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="../images/head1.jpg" style="clear: both; padding-top:5px;padding-left:50px;
+text-align:right;
+background-position:center; 
+height:315px; 
+width:950px; 
+background-align:center;">
+
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="../images/header22.jpg" style="clear: both; padding-top:5px;padding-left:50px;
+text-align:right;
+background-position:center; 
+height:315px; 
+width:950px; 
+background-align:center;">
+  
+</div>
+
+<div class="mySlides fade">
+
+  <img src="../images/header3.jpg" style="clear: both; padding-top:5px;padding-left:50px;
+text-align:right;
+background-position:center; 
+height:315px; 
+width:950px; 
+background-align:center;">
+  
+</div>
+
+</div>
+
+<center>
+<div style="text-align:center; background:white;width:900px;">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</center>
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>
+<center>
+<div id="flower">
+	<table align="left" width="97%" class="table1">
+	<tr>
+
+	<td>
+		
+	</td>
+	</tr>
+	</table>
+</div>
+
+</center>
+<div id="content">
+<div id="colOne">
+<div class="sidebarmenu">
+<ul id="sidebarmenu1">
+                                                 <li><a href="../index.html">Home</a></li><li><a href="copyright.html">Copyright</a></li>
+                                                 <li><a href="program_schedule.html">Program Schedule</a></li>
+						<li><a href="welcome_messages.html">Welcome Messages</a></li>
+<li><a href="precon.html">PreConference</a></li>
+						<li><a href="oc.html">Committees</a></li>
+						<li><a href="present.html" class="here">Oral Presentations</a></li>
+						<li><a href="poster.html">Poster Presentations</a></li>
+						
+						<li><a href="spons.html">Sponsors</a></li>
+						<li><a href="help.html">Help</a></li>
+</ul>
+
+	</div>
+	</div>
+<div id="colTwo1">
+
+<h1>Oral Presentations</h1>
+
+<table class="table_para_sess1" cellpadding="4">
+<table cellpadding="0" cellspacing="0">
+
+
+
+<p align="center"><font color="#087caf" size="5"><b></b></p>
+<table class="pglance" width="98%" align="center">
+<tr>
+
+</tr>
+</table>
+
+<!--title--><p align="center"><font color="#087caf" size="5"><b>Convolutional Neural Network Based Diagnosis of Alzheimer’s disease using Time Frequency features</b></p>
+
+
+<center>
+
+<p style="font-size: 20px;">
+<!--names-->Nilesh Kulkarni, Saurabh Parhad and Anuradha Salvi
+</p>
+<p style="font-size: 20px">Sinhgad Institute, Pune
+</p>
+<h2 style="font-size:20px">ABSTRACT</h2>
+</center>
+
+
+<a href="#" name="dean"></a>
+<!--content-->
+
+<p>
+ Alzheimer’s disease, commonly referred to as a form of dementia in early stage is one of the leading cause of death in modern society. It is neurodegenerative disease in which electrical movements of brain becomes slow as compared to normal subjects. To detect these abnormalities in human brain, several biomarkers are discussed in literature. In present research work, Electroencephalogram signals which records electrical activities of brain are emphasized. Since, EEG signals are non–stationary in nature, the disease symptoms are not easily detected. To conclude the necessary results, it is necessary to develop an automated system for diagnosis. In present research work, EEG signals are used for diagnosis of Alzheimer’s disease by means of time – frequency images. Two dimensional time – frequency scalograms are obtained using Continuous Wavelet Transform (CWT) by applying it to EEG signals. Morlet wavelet was used for obtaining scalograms. Convolutional Neural Network algorithm was incorporated to learn images and obtained results were compared with those obtained in literature. The presented system provides 96.5% accuracy, 98% sensitivity and 99% specificity on experimental database used in the study. Therefore, the application of deep learning algorithm in clinical assessment tool provides a benchmark for diagnosis of neurological disorders such as Epilepsy, Brain Stroke, Alzheimer’s disease and many more.
+</p>
+
+<br></div>
+<div id="footer">
+<table align="center" width="100%" cellpadding="8" cellspacing="0"><tr><td valign="middle"><p style="margin-top:0px; margin-bottom:0px;" align="center"><font color="#FFFFFF" size="2">&copy; 2019 ICACII</font></p></td></tr></table>
+</div>
+</div>
+</body>
+</html>

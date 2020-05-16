@@ -1,0 +1,63 @@
+
+
+#sunlink ul{ margin:0; padding:0; overflow-y:auto; overflow-x:hidden; line-height:100%; width:150px;margin-left:5px;}
+#sunlink li{margin:0; padding:0px;display:block;border-bottom: 1px dotted #FFFFFF; }
+#sunlink li a{text-decoration:none; line-height:30px; color:#FFFFFF; font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif; padding:0 0 0 18px; font-weight:bold}
+#sunlink li a:hover{color:#000000; text-decoration:none;}
+#sunlink ul li#current a, #sunlink ul li#current a{color:#d92606;font-weight:normal;font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif; padding:0 0 0 18px; font-weight:bold}
+
+
+
+
+
+
+#download ul{ margin:0; padding:0; overflow-y:auto; overflow-x:hidden; line-height:145%; width:90%;margin-left:5px;}
+#download li{margin:0; padding:0px;display:block;border-bottom: 1px dotted #4a656a; }
+#download li a{text-decoration:none; line-height:30px; color:#7f9fa5; font-size:12px; font-family:Arial, Helvetica, sans-serif; padding:0 0 0 5px; }
+#download li a:hover{color:#ac520d; text-decoration:none;}
+#download ul li .current a, #download ul li.current_link a{color:#ac520d;font-weight:bold;font-size:11px;}
+
+
+.markermenu
+{
+  width: 540px;  /* room for 3 columns */
+  margin:0px;
+  padding:0px;
+}
+.markermenu ul
+{
+  list-style-type: none;
+  margin: 0px 0;
+  padding: 0;
+}
+
+.markermenu ul li
+{
+  float: left;
+  width:240px;  /* accommodate the widest item */
+  list-style-type: none;
+  margin: 0px 0;
+  margin-right:30px;
+  padding: 0;
+}
+/* stop the floating after the list */
+br
+{
+  clear: left;
+}
+.markermenu ul li a
+{
+  display: block;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12px;
+  color:#c6e8d8;
+  text-decoration: none;
+  line-height:30pt;
+  background:url(../images/icons/pdf-icon.jpg) no-repeat 0px 8px; /*light gray background*/
+  border-bottom: 1px dotted #4a656a;
+  padding:0 0 0 25px;
+}
+.markermenu ul li a:hover
+{
+  color:#fff;
+}

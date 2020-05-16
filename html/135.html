@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>ICACII 2019</title>
+<link href="../images/ictiee.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript1.3" type="text/javascript" src="./js/jse_form.js"></script>
+<script type="text/javascript" src="js/top/jquery.min.js"></script>
+<script type="text/javascript" src="js/top/scrolltopcontrol.js"></script>
+</head>
+<body>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="../images/head1.jpg" style="clear: both; padding-top:5px;padding-left:50px;
+text-align:right;
+background-position:center; 
+height:315px; 
+width:950px; 
+background-align:center;">
+
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="../images/header22.jpg" style="clear: both; padding-top:5px;padding-left:50px;
+text-align:right;
+background-position:center; 
+height:315px; 
+width:950px; 
+background-align:center;">
+  
+</div>
+
+<div class="mySlides fade">
+
+  <img src="../images/header3.jpg" style="clear: both; padding-top:5px;padding-left:50px;
+text-align:right;
+background-position:center; 
+height:315px; 
+width:950px; 
+background-align:center;">
+  
+</div>
+
+</div>
+
+<center>
+<div style="text-align:center; background:white;width:900px;">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</center>
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+
+<center>
+<div id="flower">
+	<table align="left" width="97%" class="table1">
+	<tr>
+
+	<td>
+		
+	</td>
+	</tr>
+	</table>
+</div>
+
+</center>
+<div id="content">
+<div id="colOne">
+<div class="sidebarmenu">
+<ul id="sidebarmenu1">
+                                                 <li><a href="../index.html">Home</a></li><li><a href="copyright.html">Copyright</a></li>
+                                                 <li><a href="program_schedule.html">Program Schedule</a></li>
+						<li><a href="welcome_messages.html">Welcome Messages</a></li>
+<li><a href="precon.html">PreConference</a></li>
+						<li><a href="oc.html">Committees</a></li>
+						
+						<li><a href="present.html" class="here">Oral Presentations</a></li>
+						<li><a href="poster.html">Poster Presentations</a></li>
+						
+						<li><a href="spons.html">Sponsors</a></li>
+						<li><a href="help.html">Help</a></li>
+</ul>
+
+	</div>
+	</div>
+<div id="colTwo1">
+
+<h1>Oral Presentations</h1>
+
+<table class="table_para_sess1" cellpadding="4">
+<table cellpadding="0" cellspacing="0">
+
+
+
+<p align="center"><font color="#087caf" size="5"><b></b></p>
+<table class="pglance" width="98%" align="center">
+<tr>
+
+</tr>
+</table>
+
+<p align="center"><font color="#087caf" size="5"><b>CLASSIFICATION OF NATURAL IMAGES USING MACHINE LEARNING CLASSIFIERS ON GRAPH BASED APPROACHES</b></p>
+
+
+<center>
+
+<p style="font-size: 20px;">
+B Kishore, V Vijaya Kumar and J Sasi Kiran
+</p>
+<p style="font-size: 20px">Oregon State University
+</p>
+<h2 style="font-size:20px">ABSTRACT</h2>
+</center>
+
+
+<a href="#" name="dean"></a>
+
+
+<p>
+Local descriptors have become more and more popular and gaining a high recognition in recent years in texture analysis and other domains of image processing and computer vision due to their capability in identifying unique and distinct features which are robust to various conditions. The most of the local descriptors like local binary pattern (LBP), textons and Peano scan motif considered the neighborhood as a simple window and extracted the features. This paper derives a graph structure on a local grid. The local features are derived based on transitions between adjacent vertices. This paper derives a dual graph function using the neighborhood property that exists between a vertex V and two of its neighbors V1 and V2 which are connected with vertex V. This paper initially divides the texture image into 2x2 non-overlapped grids and derives dual transition function and derives a dual graph unit (DGU) and replaces the 2x2 grid with DGU. The co-occurrence matrix derived on DGU indexed image represents dual graph texture matrix (DGTM). The gray level co-occurrence matrix (GLCM) features are derived on DGTM and these feature vectors are given as inputs to the machine learning classifiers for classification. The proposed local DGTM is compared with state of art local based approaches and the results on five popular databases exhibits the efficacy of the proposed DGTM over the existing local based methods..
+</p>
+
+<br></div>
+<div id="footer">
+<table align="center" width="100%" cellpadding="8" cellspacing="0"><tr><td valign="middle"><p style="margin-top:0px; margin-bottom:0px;" align="center"><font color="#FFFFFF" size="2">&copy; 2019 ICACII</font></p></td></tr></table>
+</div>
+</div>
+</body>
+</html>

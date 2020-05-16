@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>ICACII 2019</title>
+<link href="../images/ictiee.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript1.3" type="text/javascript" src="./js/jse_form.js"></script>
+<script type="text/javascript" src="js/top/jquery.min.js"></script>
+<script type="text/javascript" src="js/top/scrolltopcontrol.js"></script>
+</head>
+<body>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="../images/head1.jpg" style="clear: both; padding-top:5px;padding-left:50px;
+text-align:right;
+background-position:center; 
+height:315px; 
+width:950px; 
+background-align:center;">
+
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="../images/header22.jpg" style="clear: both; padding-top:5px;padding-left:50px;
+text-align:right;
+background-position:center; 
+height:315px; 
+width:950px; 
+background-align:center;">
+  
+</div>
+
+<div class="mySlides fade">
+
+  <img src="../images/header3.jpg" style="clear: both; padding-top:5px;padding-left:50px;
+text-align:right;
+background-position:center; 
+height:315px; 
+width:950px; 
+background-align:center;">
+  
+</div>
+
+</div>
+
+<center>
+<div style="text-align:center; background:white;width:900px;">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</center>
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+
+<center>
+<div id="flower">
+	<table align="left" width="97%" class="table1">
+	<tr>
+
+	<td>
+		
+	</td>
+	</tr>
+	</table>
+</div>
+
+</center>
+<div id="content">
+<div id="colOne">
+<div class="sidebarmenu">
+<ul id="sidebarmenu1">
+                                                 <li><a href="../index.html">Home</a></li><li><a href="copyright.html">Copyright</a></li>
+                                                 <li><a href="program_schedule.html">Program Schedule</a></li>
+						<li><a href="welcome_messages.html">Welcome Messages</a></li>
+<li><a href="precon.html">PreConference</a></li>
+						<li><a href="oc.html">Committees</a></li>
+					
+						<li><a href="present.html" class="here">Oral Presentations</a></li>
+						<li><a href="poster.html">Poster Presentations</a></li>
+						
+						<li><a href="spons.html">Sponsors</a></li>
+						<li><a href="help.html">Help</a></li>
+</ul>
+
+	</div>
+	</div>
+<div id="colTwo1">
+
+<h1>Oral Presentations</h1>
+
+<table class="table_para_sess1" cellpadding="4">
+<table cellpadding="0" cellspacing="0">
+
+
+
+<p align="center"><font color="#087caf" size="5"><b></b></p>
+<table class="pglance" width="98%" align="center">
+<tr>
+
+</tr>
+</table>
+
+<p align="center"><font color="#087caf" size="5"><b>QoS based routing algorithm for Software Defined Network <br>using Ant colony optimization</b></p>
+
+
+<center>
+
+<p style="font-size: 20px;">
+Raghavendra Kulkarni and Dr. Kalpana Sharma
+</p>
+
+<p style="font-size: 20px;">
+Bhagwant University, Ajmer, Rajasthan
+</p>
+
+<h2 style="font-size:20px">ABSTRACT</h2>
+</center>
+
+
+<a href="#" name="dean"></a>
+
+
+<p>
+Recently, software-defined networking (SDN) is the most promising solutions for future network. In SDN, networking architecture combines central management and along with network programmability. Here, control plane separate from the data plane. The network management controlled by central point, called the controller. This can be programmed and act as the brain of the whole network. Due to these unique features SDN easily manage network, gives better performance than traditional network, and higher flexibility. In this paper, we have proposed an ant colony optimization based routing protocol targeting to achieve significant value of various QoS parameters. The proposed methodology is based on the classification of various types of traffic. To classify the traffic we introduce to the bandwidth requirement for multimedia traffic like audio, video and text. Here, our method is compared with PSO-SDN ( Particle Swarm Optimization- Software Defined Network). The results obtained in terms of various QoS parameters show that using Ant Colony optimization is outperform to PSO-SDN. Finally, we concluded the paper with few suggested open research challenges.
+</p>
+
+<br></div>
+<div id="footer">
+<table align="center" width="100%" cellpadding="8" cellspacing="0"><tr><td valign="middle"><p style="margin-top:0px; margin-bottom:0px;" align="center"><font color="#FFFFFF" size="2">&copy; 2019 ICACII</font></p></td></tr></table>
+</div>
+</div>
+</body>
+</html>

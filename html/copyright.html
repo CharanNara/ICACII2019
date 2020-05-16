@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>ICACII 2019</title>
+<link href="../images/ictiee.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript1.3" type="text/javascript" src="./js/jse_form.js"></script>
+<script type="text/javascript" src="js/top/jquery.min.js"></script>
+<script type="text/javascript" src="js/top/scrolltopcontrol.js"></script>
+</head>
+<body>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="../images/head1.jpg" style="clear: both; padding-top:5px;padding-left:50px;
+text-align:right;
+background-position:center; 
+height:315px; 
+width:950px; 
+background-align:center;">
+
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="../images/header22.jpg" style="clear: both; padding-top:5px;padding-left:50px;
+text-align:right;
+background-position:center; 
+height:315px; 
+width:950px; 
+background-align:center;">
+  
+</div>
+
+<div class="mySlides fade">
+
+  <img src="../images/header3.jpg" style="clear: both; padding-top:5px;padding-left:50px;
+text-align:right;
+background-position:center; 
+height:315px; 
+width:950px; 
+background-align:center;">
+  
+</div>
+
+</div>
+
+<center>
+<div style="text-align:center; background:white;width:900px;">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</center>
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+
+<center>
+<div id="flower">
+	<table align="left" width="97%" class="table1">
+	<tr>
+
+	<td>
+		
+	</td>
+	</tr>
+	</table>
+</div>
+
+</center>
+<div id="content" style="background-image: url('../images/abcd.jpg');background-repeat: no-repeat;
+  
+  background-size: 100% 100%;">
+<div id="colOne">
+<div class="sidebarmenu">
+<ul id="sidebarmenu1">
+					<li><a href="../index.html">Home</a></li>
+
+                                                <li><a href="copyright.html" class="here">Copyright</a></li>
+                                                <li><a href="program_schedule.html">Program Schedule</a></li>
+            <li><a href="welcome_messages.html">Welcome Messages</a></li>
+            <li><a href="oc.html">Committees</a></li>
+          
+            <li><a href="present.html">Oral Presentations</a></li>
+            <li><a href="poster.html">Poster Presentations</a></li>
+            
+            
+            <li><a href="spons.html">Sponsors</a></li>
+            
+            <li><a href="help.html">Help</a></li>
+</ul>
+
+	</div>
+	</div>
+<div id="colTwo">
+<h1>Copyright</h1>
+<p><b>Souvenir</b><br>
+<b>1<sup>st</sup> International Conference on<br>Advances in Computational Intelligence and Informatics</b></p>
+<p>Copyright &copy; 2019  ICACII 2019 Organisers. All rights Reserved.</p>
+<br>
+<p align="justify">This CD-ROM Drive, or parts thereof, may not be reproduced in any form or by any means, electronic or mechanical, including photocopying, recording or any information storage and retrieval system now known or to be invented, without written permission from the Publisher or the Editor(s).</p>
+<p align="justify"><font color="#B0232B">Disclaimer</font><br>
+No responsibility is assumed by the Publisher or the Editor(s) for any injury and/or damage to persons or property as a matter of products liability, negligence or otherwise, or from any use or operation of any methods, products or ideas contained in the material herein. Contents, used in the papers are how they are submitted by the contributors. Whilst every attempt made to ensure that all aspects of the papers are uniform in style, the Publisher or the Editor(s) will not be responsible whatsoever for the accuracy, correctness or representations of any statements or documents presented in the papers.</p>
+
+</div>
+<div id="footer">
+<table align="center" width="100%" cellpadding="8" cellspacing="0"><tr><td valign="middle"><p style="margin-top:0px; margin-bottom:0px;" align="center"><font color="#FFFFFF" size="2">&copy; 2019 ICACII</font></p></td></tr></table>
+</div>
+</div>
+</body>
+</html>
